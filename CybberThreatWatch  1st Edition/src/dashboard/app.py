@@ -1,7 +1,7 @@
 # src/dashboard/app.py
 import streamlit as st
-from data_ingestion.cve_fetcher import fetch_recent_cves
-from data_ingestion.otx_client import get_pulse_indicators
+from src.data_ingestion.cve_fetcher import fetch_recent_cves
+from src.data_ingestion.otx_client import get_pulse_indicators
 
 st.set_page_config(layout="wide")
 st.title("CyberThreatWatch - Live Threat Intelligence")
